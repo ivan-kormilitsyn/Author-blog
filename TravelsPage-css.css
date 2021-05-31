@@ -1,0 +1,220 @@
+.Author {
+   color: rgb(116, 42, 235);
+   padding-left: 5%;
+   font-size: 34px;
+   font-family: 'Dancing Script', cursive;
+   margin-top: 0%;
+   padding-top: 0%;
+}
+
+.navGroup {
+   margin-top: 1%;
+   background-color: rgb(243, 243, 247);
+   width: 1000px;
+   height: 250px;
+   margin-right: auto;
+   margin-left: auto;
+   border-radius: 50px 50px 50px 50px;
+   box-shadow: 10px 10px 54px 10px rgb(124, 124, 124);
+   border-style: groove;
+   position: relative;
+   background-image: url(Pictures/SKY.jpg);
+
+}
+
+.searchButton button {
+   cursor: help;
+}
+
+.searchButton {
+   margin-top: 4%;
+   margin-left: 90%;
+   position: static;
+   padding: 20px;
+}
+
+.navigationKey {
+   font-size: 20px;
+   font-family: cursive;
+   color: rgb(17, 39, 41);
+   margin-top: 13%;
+   padding: auto;
+   display: flex;
+   justify-content: space-around;
+   text-decoration: underline;
+   cursor: pointer;
+
+
+}
+
+
+
+.searchButton:hover>* {
+   opacity: 0.5;
+}
+
+.searchButton:hover>*:hover {
+   transform: scale(1.1);
+   opacity: 1;
+}
+
+.searchButton {
+   pointer-events: none;
+}
+
+.searchButton>* {
+   pointer-events: auto;
+
+}
+
+.navigationKey:hover>* {
+   opacity: 0.5;
+}
+
+.navigationKey:hover>*:hover {
+   transform: scale(1.1) rotate(355deg);
+   opacity: 1;
+}
+
+.navigationKey {
+   pointer-events: none;
+}
+
+.navigationKey>* {
+   pointer-events: auto;
+
+}
+
+html,
+body {
+   background-color: thistle;
+   background: linear-gradient(to top left, rgb(201, 249, 255), rgb(244, 253, 244)) no-repeat;
+}
+
+.text {
+   height: 100px;
+   margin-right: 20%;
+   margin-left: 20%;
+   margin-bottom: 10%;
+   opacity: 100%;
+   position: sticky;
+
+}
+
+.text-backgr {
+   position: static;
+}
+
+.AuthorImg p {
+   position: absolute;
+   margin-left: 43%;
+   margin-top: 0%;
+   font-size: 50px;
+   color: rgb(158, 0, 145);
+
+}
+
+.AuthorImg {
+   padding-top: 5%;
+   font-size: 100px;
+   font-family: 'Dancing Script', cursive;
+   margin-right: auto;
+   margin-left: auto;
+   text-align: center;
+   background-size: cover;
+
+}
+
+.HibinsText {
+   padding-bottom: 50px;
+   margin-left: 50%;
+   margin-right: 50%;
+   margin-top: 0%;
+   color: rgb(2, 2, 2);
+   font-size: 33px;
+   font-family: cursive;
+   text-decoration: none;
+}
+
+
+.HibinsText:hover {
+   text-decoration: underline;
+   cursor: pointer;
+   box-shadow: 80px 0px 230px 50px rgb(216, 16, 16);
+
+}
+
+.container {
+   width: 100%;
+   /* ширина блока-контейнера */
+   max-width: 960px;
+   /* максимальная ширина контейнера */
+   margin: 0 auto;
+   /* этот стиль центрирует контейнер */
+}
+
+.photo {
+   float: left;
+   /* говорим элементам выстраиваться один за другим */
+   width: 33.333333%;
+   /* устанавливаем ширину элемента */
+   padding: 10px;
+   /* добавляем отступы с каждой стороны */
+   box-sizing: border-box;
+   /* меняем способ вычисления ширины */
+}
+
+.photo img {
+   /*Адаптив картинок*/
+   display: block;
+   max-width: 100%;
+   height: auto;
+   border: 10px solid #eee;
+   box-sizing: border-box;
+}
+
+.photo a:hover {
+   opacity: 0.5;
+}
+
+.photo a {
+   display: block;
+   position: relative;
+}
+
+.photo a:after {
+   content: '';
+   background: transparent url(icons/eye-icon.png) no-repeat center;
+   width: 52px;
+   height: 35px;
+   position: absolute;
+   margin: auto;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   visibility: hidden;
+}
+
+.photo:hover>a:after {
+   visibility: visible;
+}
+
+.photo figcaption {
+
+   color: #999999;
+   text-align: center;
+   margin-top: 20px;
+}
+
+h1 {
+   font-size: 36px;
+   text-transform: uppercase;
+   color: #cccccc;
+   text-align: center;
+   margin: 30px 0;
+}
+
+body {
+   font-family: 'Open Sans', sans-serif;
+}
