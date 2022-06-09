@@ -24,6 +24,8 @@
 
 .searchButton button {
    cursor: help;
+   border-radius: 5px 5px 5px 5px;
+   border-color: rgb(224, 237, 248);
 }
 
 .searchButton {
