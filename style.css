@@ -1,26 +1,26 @@
+/* headers icon */
 .Author {
-   color: rgb(116, 42, 235);
-   padding-left: 5%;
-   font-size: 34px;
+   padding-left: 1%;
+   font-size: 20px;
    font-family: 'Dancing Script', cursive;
-   margin-top: 0%;
-   padding-top: 0%;
+   padding-top: 0.5%;
+
 }
 
+/* Navigation box */
 .navGroup {
-   margin-top: 1%;
-   background-color: rgb(243, 243, 247);
-   width: 1000px;
-   height: 250px;
+   width: 800px;
+   height: 120px;
    margin-right: auto;
    margin-left: auto;
    border-radius: 50px 50px 50px 50px;
-   box-shadow: 10px 10px 54px 10px rgb(124, 124, 124);
-   border-style: groove;
+   box-shadow: 10px 10px 54px 10px rgb(143, 172, 170);
    position: relative;
-   background-image: url(Pictures/SKY.jpg);
+   background: linear-gradient(to top right, rgb(201, 249, 255), rgb(244, 253, 244)) no-repeat;
 
 }
+
+/* Search Button */
 
 .searchButton button {
    cursor: help;
@@ -28,26 +28,10 @@
 
 .searchButton {
    margin-top: 4%;
-   margin-left: 90%;
+   margin-left: 85%;
    position: static;
    padding: 20px;
 }
-
-.navigationKey {
-   font-size: 20px;
-   font-family: cursive;
-   color: rgb(17, 39, 41);
-   margin-top: 13%;
-   padding: auto;
-   display: flex;
-   justify-content: space-around;
-   text-decoration: underline;
-   cursor: pointer;
-
-
-}
-
-
 
 .searchButton:hover>* {
    opacity: 0.5;
@@ -67,12 +51,27 @@
 
 }
 
+/* Navigation key-txt */
+
+.navigationKey {
+   font-size: 20px;
+   font-family: cursive;
+   color: rgb(17, 39, 41);
+   margin-top: 3%;
+   padding: auto;
+   display: flex;
+   justify-content: space-around;
+   text-decoration: underline;
+   cursor: pointer;
+
+}
+
 .navigationKey:hover>* {
    opacity: 0.5;
 }
 
 .navigationKey:hover>*:hover {
-   transform: scale(1.1) rotate(355deg);
+   transform: scale(1.1) rotate(358deg);
    opacity: 1;
 }
 
@@ -85,35 +84,28 @@
 
 }
 
+/* page bg */
+
 html,
 body {
-   background-color: thistle;
+   background-color: rgb(201, 249, 255);
    background: linear-gradient(to top left, rgb(201, 249, 255), rgb(244, 253, 244)) no-repeat;
 }
 
+/* all text styles */
+
 .text {
-   height: 100px;
+   padding-top: 50px;
+   height: 70px;
    margin-right: 20%;
    margin-left: 20%;
-   margin-bottom: 10%;
+   margin-bottom: 3%;
    opacity: 100%;
    position: sticky;
 
 }
 
-.text-backgr {
-   position: static;
-}
-
-.AuthorImg p {
-   position: absolute;
-   margin-left: 43%;
-   margin-top: 0%;
-   font-size: 50px;
-   color: rgb(158, 0, 145);
-
-}
-
+/* Body-Author-image */
 .AuthorImg {
    padding-top: 5%;
    font-size: 100px;
@@ -125,6 +117,7 @@ body {
 
 }
 
+/* body text under image */
 .HibinsText {
    padding-bottom: 50px;
    margin-left: 50%;
@@ -137,31 +130,19 @@ body {
 }
 
 
-.HibinsText:hover {
-   text-decoration: underline;
-   cursor: pointer;
-   box-shadow: 80px 0px 230px 50px rgb(216, 16, 16);
-
-}
-
+/* Photo gallery */
 .container {
    width: 100%;
-   /* ширина блока-контейнера */
    max-width: 960px;
-   /* максимальная ширина контейнера */
    margin: 0 auto;
-   /* этот стиль центрирует контейнер */
+
 }
 
 .photo {
    float: left;
-   /* говорим элементам выстраиваться один за другим */
    width: 33.333333%;
-   /* устанавливаем ширину элемента */
    padding: 10px;
-   /* добавляем отступы с каждой стороны */
    box-sizing: border-box;
-   /* меняем способ вычисления ширины */
 }
 
 .photo img {
@@ -173,6 +154,7 @@ body {
    box-sizing: border-box;
 }
 
+/* Photo gallery animation */
 .photo a:hover {
    opacity: 0.5;
 }
@@ -213,8 +195,4 @@ h1 {
    color: #cccccc;
    text-align: center;
    margin: 30px 0;
-}
-
-body {
-   font-family: 'Open Sans', sans-serif;
 }

@@ -12,38 +12,29 @@
    <link href="lightbox/css/lightbox.min.css" rel="stylesheet">
    <script src="jQuery.js"></script>
 
-   <style type="text/css">
-      @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-
-      button {
-         border-radius: 70px 70px 70px 70px;
-         background: linear-gradient(to top left, rgb(230, 255, 5), rgb(102, 255, 123)) no-repeat;
-         cursor: pointer;
-      }
-   </style>
 </head>
 
 <body>
 
    <div class="All">
-      <p class="Author"><img src="Pictures/Dukalis2.png" width="70px" height="70px"> Иван Алексеевич</p>
+      <p class="Author"><img src="Pictures/Dukalis2.png" width="50px" height="50px"> Иван Алексеевич</p>
       <div class="navGroup">
-         <div class="searchButton">
-            <button>...Поиск</button>
-         </div>
-         <div class="navigationKey">
-            <div><a href="#1">Где был</a></div>
-            <div><a href="#top">Фото</a></div>
-            <div><a href="#2">Советы</a></div>
-            <div><a href="#3">Вопросы</a></div>
+         <div class="nav-bg">
+            <div class="searchButton">
+               <button>...Поиск</button>
+            </div>
+            <div class="navigationKey">
+
+               <li>Где был</li>
+               <li>Фото</li>
+               <li>Советы</li>
+               <li>Вопросы</li>
+
+            </div>
          </div>
       </div>
       <div class="AuthorImg">
-         <p>Авторский<br>
-            Блог
-         </p>
          <img src="Pictures/Me2.png" alt="" width="700px" height="700px">
-
       </div>
    </div>
    <div class="text">
@@ -55,7 +46,7 @@
          Last 3 years I tight doing support of users in big companies, such as x5 Retail Group, Sberbank and group
          companies Severstal. Now I study programming language JavaScript and in the near future I want to be a part of
          the development team software. And I also really like downhill skiing, martial art and travel.
-      <p><a href="#top">Наверх</a></p>
+         <a href="#top">Наверх</a>
 
    </div>
 
@@ -64,7 +55,7 @@
    <div class="container">
       <div id="gallery">
          <figure class="photo">
-            <a name="top"></a>
+            <a name="picture"></a>
             <a href="Pictures/3.jpg" data-lightbox="roadtrip" data-title="Водопад Красивый">
                <img src="Pictures/3-300.jpg" alt="Hibins" /></a>
             <figcaption>Водопад "Красивый"</figcaption>
